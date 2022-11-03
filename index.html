@@ -9,15 +9,27 @@
     </head>
 
     <body>
-        <h1>HangMan</h1>
-        <button id="randWord">Get New Word</button><br>
+        <div class="header">
+            <h1 id="title">HangMan</h1>
+            <h1 id="pLife">PLayer Life: 5</h1>
+        </div>
+
+        <div class="scoreContainer">
+            <h1 id="topic">Topic: </h1>
+        </div>
+
+        <div class="struct">
+            <h1>Letters Guessed:<br></h1>
+        <button id="randWord">Get New Word To Current Topic</button><br>
+        <button id="newTop">Get New Topic</button>
         <input id="inputGuess" placeholder="Guess A Word or Letter">
         <input type="submit" id="submitGuess">
         <hr>
         <input id="addWord" placeholder="Add A Word">
         <input id="submitNew" type="submit">
         <p id="rightGLet"></p>
+        </div>
 
-        <script src="script.js"></script>
+        <script src="hangmanScript.js"></script>
     </body>
 </html>

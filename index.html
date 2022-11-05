@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <div class="header">
+            <h1 id="title">HangMan By Mario Rivas</h1>
+            <h1 id="pLife">PLayer Life: 5</h1>
+        </div>
+
+        <div class="scoreContainer">
+            <h1 id="topic">Topic: </h1>
+        </div>
+        <button id="randWord">Randomize/Get New Word</button><br>
+
+        <div class="struct">
+            <!-- <h1>Letters Guessed:<br></h1> -->
+        <div class="box1">
+        <button id="newTop">Get New Topic</button><br>
+        <input id="inputGuess" placeholder="Guess A Word or Letter"><br>
+        <input type="submit" id="submitGuess"><br>
+        <input id="addWord" placeholder="Add ord To Current Topic"><br>
+        <input id="submitNew" type="submit"><br>
+        </div>
+        <div class="box2">
+            <h1>Wrong Letters: </h1>
+            <h1 id="rightGLet"></h1>
+        </div>
+        </div>
+        <h1 id="wordHelp"></h1>
+
+        <script src="script.js"></script>
+    </body>
+</html>
